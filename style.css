@@ -1,3 +1,212 @@
-.test {
+html, .page {
+    background-image: url(img/background_image_3.png) ;
+    background-size: cover;
+    background-color: rgb(114, 114, 114);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  } 
+  
+  .display-4 {
+    color: white;
+  }
+  
+  .container {
+    margin-top: 4em;
+    margin-bottom: 2em;
+  }
+  
+  img {
+    margin-left: 1em;
+  }
+  
+  .tables {
+    float: left;
+  }
+  
+  
+  td {
+    background-color: white;
+  }
+  
+  #servingSize {
+      width: 100%;
+  }
+  
+  input[type="number"]::-webkit-outer-spin-button, input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  
+  input > .search {
+    width: 100%;
+  }
+  
+  body, body * {
+    font-family: 'Raleway', sans-serif;
+  }
+  
+  #add_To_List {
+    margin: -20px -50px; 
+    position:relative;
+    top:50%; 
+    left:50%;
+  }
+  
+  .alert_css {
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  .alert {
+    margin-bottom: none;
+  }
+  
+  tr:hover td {
+    background-color: #ebebeb
+  }
+  
+  .pointer { 
+    cursor: pointer; 
+  }
+  
+  .top-cell {
+    background-color: green;
+  }
+  
+  th {
+    color: white;
+    background-color: rgb(28, 106, 209);
+  }
+  
+  .jumbo-css {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+  .table thead>tr>th {
+    border:none;
+  }
+  
+  hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(53, 48, 48, 0.972);
+    width: 200px;
+  }
+  
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    height: 100px;
+  }
+  
+  .clear { 
+    clear:both; 
+    text-align: center;
+    bottom: 0px;
+    position: relative;
+  
+  }
+  
+  .col-centered{
+      margin: 0 auto;
+  }
+  
+  #placeholder_Text {
+    text-align: center;
+  };
+  
+  .wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr))
+  }
+  
+  .content-wrap {
+    grid-column: 2/4;
+  }
+  
+  .autocomplete-items {
+    position: absolute;
+    border: 1px solid #d4d4d4;
+    border-bottom: none;
+    border-top: none;
+    z-index: 99;
+    /*position the autocomplete items to be the same width as the container:*/
+    top: 100%;
+    left: 0;
+    right: 0;
+  }
+  
+  .autocomplete-items div {
+    padding: 10px; 
+  
+    background-color: #fff; 
+    border-bottom: 1px solid #d4d4d4; 
+      /* cursor: pointer; */
+  }
+  
+  .result:hover {
+    background: #ebebeb;
     color: black;
-}
+  }
+  
+  .food_Img {
+    width: 30px;
+  }
+  
+  .font {
+    font-weight: bold;
+  }
+  
+  td .form-control {
+    font-weight: bold;
+  }
+  
+  div .active {
+    background: #ebebeb;
+    color: black;
+  }
+  
+  .result {
+    background: rgb(28, 106, 209);
+  }
+  
+  .github-icon {
+    width: 20px;
+    height: 100%;
+    margin-right: 2px;
+  }
+  
+  .corner-ribbon{
+    width: 200px;
+    background: #e43;
+    position: absolute;
+    top: 25px;
+    left: -50px;
+    text-align: center;
+    line-height: 50px;
+    letter-spacing: 1px;
+    color: #f0f0f0;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
+  
+  .corner-ribbon.top-right{
+    top: 25px;
+    right: -50px;
+    left: auto;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+  
+  .corner-ribbon.blue{
+    background: rgb(12,170,165);
+  }
+  
+  .corner-ribbon.sticky{
+    position: fixed;
+  }
